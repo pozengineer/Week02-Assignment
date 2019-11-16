@@ -21,8 +21,12 @@
     border-color: #cccccc; */
 }
 
-a {
-    color: #ffffff;
+a nav-link{
+    color: #666666 !important;
+}
+
+.labelText {
+    color: #ffffff !important;
 }
 
 a:link {
@@ -30,15 +34,17 @@ a:link {
 }
 
 a:hover {
-    color: #666666;
+    color: #ffffff !important;
     text-decoration: none;
 }
 
 .nav-item:hover {
     background-color: #ff0000;
+    color: #fff !important;
     text-decoration: none;
     padding: 5px 1px 5px 1px;
     width: 100px;
+    color: #ffffff !important;
 }
 
 a:focus {
@@ -67,11 +73,6 @@ a:focus {
     padding: 10px 30px 10px 30px;
 }
 
-.img-fluid {
-    width: 100%;
-    margin-bottom: 10px;
-}
-
 h1 {
     font-family: "Georgia", "Times New Roman", Times, serif;
     font-size: 25px;
@@ -94,15 +95,10 @@ hr {
     margin-bottom: 0;
 }
 
-.container {
-    min-height: calc(100vh - 70px);
-}
-
 .footer {
     background: #666666;
     margin: 0;
     text-align: center;
-    color: #ffffff;
     font-size: 14px;
     padding-top: 35px;
     padding-bottom: 5px;
@@ -111,31 +107,41 @@ hr {
     border-color: #0a00ff;
 }
 
-.btn {
-    margin-top: 20px;
+.text-muted {
+    color: #ffffff !important;
 }
 
-.digiPic-fluid {
+.btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img-fluid {
     width: 100%;
-    height: 85%;
+    height: 100%;
     z-index: 100;
+    padding-bottom: 30px;
 }
 
 .label {
     position: relative;
     background: #666666;
-    bottom: 40px;
+    bottom: 70px;
     z-index: 200;
     width: 100%;
     /* padding: 5px; */
     text-align: center;
-    color: #ffffff;
 }
 
-/* Style the active class, and buttons on mouse-over */
 .label:hover {
     background-color: #ffffff;
-    color: #666666;
+    text-decoration: none;
+  }
+
+/* Style the active class, and buttons on mouse-over */
+.labelText:hover {
+    background-color: #ffffff;
+    color: #666666 !important;
     text-decoration: none;
   }
 
@@ -176,6 +182,8 @@ hr {
         width: 250px;
         height: 60px;
     }
+
+    .label {}
 
     /* The container width will be 576px */
     /* .container {
