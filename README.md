@@ -40,7 +40,12 @@ This application was built using:
 - CSS: Style Sheet Language that allows the developer to style an HTML document
 - BootStrap: Library of HTML and CSS files and code https://getbootstrap.com/
 
-![About Me Page](assets/images/aboutMe.jpg)
+![About Me tablet](assets/images/aboutMe01.jpg)
+![About Me phone](assets/images/aboutMe02.jpg)
+![Portfolio tablet](assets/images/portFolio01.jpg)
+![Portfolio phone](assets/images/portFolio02.jpg)
+![Contact tablet](assets/images/contact01.jpg)
+![Contact phone](assets/images/contact02.jpg)
 
 
 
