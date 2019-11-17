@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>wk02Ass</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style01.css">
         
@@ -42,7 +42,11 @@
                     </div>
                     -->
                 </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </nav>
+            <script src="https://code.jquery.com/jquery-3.3.1..js"></script>
         </section>
 
         <section id="mainContent">
@@ -96,6 +100,17 @@
         <footer class="footer mt-auto py-3">
             <span class="text-muted">Copyright &#169 2019</span>
         </footer>
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("collapse");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+        </script>
 
     </body>
 </html>
